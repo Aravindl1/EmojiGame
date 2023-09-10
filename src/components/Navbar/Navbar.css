@@ -1,0 +1,43 @@
+
+.nav {
+    background-color: #ffffff33;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-logo {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.game-name {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.nav-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+}
+
+.nav-score > p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    padding-left: 10px;
+}
